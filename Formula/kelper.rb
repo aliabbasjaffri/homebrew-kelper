@@ -1,7 +1,7 @@
 # Formula/kelper.rb
 class Kelper < Formula
   desc "A CLI tool for Kelper" # Update description
-  homepage "https://github.com/your-username/kelper" # Update repository URL
+  homepage "https://github.com/aliabbasjaffri/kelper" # Update repository URL
   version "{{version}}" # This will be updated by the action
   license "MIT" # Or your actual license
 
