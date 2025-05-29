@@ -2,17 +2,17 @@
 class Kelper < Formula
   desc "A CLI tool for Kelper"
   homepage "https://github.com/aliabbasjaffri/kelper"
-  version "v0.0.26"
+  version "v0.0.27"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/aliabbasjaffri/kelper/releases/download/v0.0.26/kelper-x86_64-apple-darwin"
-      sha256 "17d07778bb0ab7ff1ce38499ec3a70cffa395a0af86a51d4b1658e17b415d3c5"
+      url "https://github.com/aliabbasjaffri/kelper/releases/download/v0.0.27/kelper-x86_64-apple-darwin"
+      sha256 "e1a48bce723e16a805c2fbb18b2c1f94c2f2a3b49fa93078ee7219f2d5c240d9"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/aliabbasjaffri/kelper/releases/download/v0.0.26/kelper-aarch64-apple-darwin"
-      sha256 "998c8cfd7707e2ed46b35397bd8e1ab0999b39ecab65325275ce9873fdb19fc8"
+      url "https://github.com/aliabbasjaffri/kelper/releases/download/v0.0.27/kelper-aarch64-apple-darwin"
+      sha256 "a9a455f235bff8c3b50a246cf5e53959aed31df695d36bee43711cada6bddccb"
     end
   end
 
